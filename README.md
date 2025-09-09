@@ -11,3 +11,22 @@ Este repositorio contiene el proyecto de título de **Camilo Suazo** sobre model
 
 ## 📦 Estructura
 
+
+> Si tu CSV pesa **> 100 MB**, activa Git LFS (ver sección “Archivos grandes”).
+
+---
+
+## ⚙️ Requisitos
+
+- Python 3.10+  
+- Librerías en `requirements.txt`:
+  - `pandas`, `numpy`, `scikit-learn`, `imbalanced-learn`
+  - `matplotlib`, `seaborn`
+  - (opcional) `jupyter`, `notebook`
+
+Instalación rápida:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # en Windows: .venv\Scripts\activate
+pip install -r requirements.txt
